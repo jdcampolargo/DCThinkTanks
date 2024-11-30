@@ -35,3 +35,7 @@ What other things?
 - Monetization
 - Distribution
 - 
+
+Instead of scraping websites, a better solution could be accessing the RSS Feeds of Think Tanks:
+- RAND Corp: https://www.rand.org/events.xml
+- 
