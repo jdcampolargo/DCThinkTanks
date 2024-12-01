@@ -16,7 +16,7 @@ export async function getStaticProps() {
     props: {
       events,
     },
-    revalidate: 86400, // Revalidate once per day
+    // revalidate: 86400, // Revalidate once per day
   };
 }
 
