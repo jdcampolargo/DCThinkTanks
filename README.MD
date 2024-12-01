@@ -53,4 +53,6 @@ What other things?
 
 Instead of scraping websites, a better solution could be accessing the RSS Feeds of Think Tanks:
 - RAND Corp: https://www.rand.org/events.xml
+- List of RSS Feeds: https://guides.libraries.indiana.edu/c.php?g=199682&p=1313704
 - 
+
