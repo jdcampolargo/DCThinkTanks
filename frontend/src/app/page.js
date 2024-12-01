@@ -136,16 +136,19 @@ const HomePage = () => {
           </Link>
         </div>
         
+
         <blockquote style={styles.quote}>
-          <span style={{...styles.quoteMarks, left: 0}}>"</span>
-          Not all those who wander are lost
-          <span style={{...styles.quoteMarks, right: 0}}>"</span>
-        </blockquote>
+  <span style={{...styles.quoteMarks, left: 0}}>&ldquo;</span>
+  Not all those who wander are lost
+  <span style={{...styles.quoteMarks, right: 0}}>&rdquo;</span>
+</blockquote>
+
       </div>
       
       <footer style={styles.footer}>
-        © {new Date().getFullYear()} Where George Goes - Mapping History's Paths
-      </footer>
+  &copy; {new Date().getFullYear()} Where George Goes - Mapping History&apos;s Paths
+</footer>
+
   </div>
   );
 };
