@@ -12,6 +12,35 @@ Websites
 - https://www.piie.com/events
 - https://www.wilsoncenter.org/events
 - https://www.americanprogress.org/events/
+- https://www.atlanticcouncil.org/events/
+- https://www.rand.org/events.html
+- https://www.hudson.org/events
+- https://www.cfr.org/event
+- https://www.cato.org/events
+- https://www.cnas.org/events
+- https://www.aei.org/events/
+- https://www.rff.org/events/
+- https://freedomhouse.org/events
+- https://itif.org/events/
+- https://www.cgdev.org/section/events
+- https://www.usip.org/events
+- https://www.thedialogue.org/events/
+- https://www.nbr.org/event-listing/
+- https://www.mei.edu/events
+- https://www.aspeninstitute.org/location/washington-dc-events/
+- https://www.ifpri.org/events/
+- https://www.rstreet.org/events/
+- https://www.newamerica.org/events/
+- https://www.piie.com/events
+- https://theird.org/events/
+
+
+
+- https://www.wri.org/events
+
+- Other Events
+
+https://www.loc.gov/events/
 
 # Structure
 
