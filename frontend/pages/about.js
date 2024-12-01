@@ -74,8 +74,8 @@ export default function AboutPage() {
       </div>
       
       <footer style={styles.footer}>
-        © {new Date().getFullYear()} Where George Goes - Mapping History's Paths
-      </footer>
+  &copy; {new Date().getFullYear()} Where George Goes - Mapping History&apos;s Paths
+</footer>
     </div>
   );
 }

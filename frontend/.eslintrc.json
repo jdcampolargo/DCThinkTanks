@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off" // Disable the rule
+    // Alternatively, you can customize the rule:
+    // "react/no-unescaped-entities": ["warn", { "forbid": [">", "}"] }]
+  }
 }
