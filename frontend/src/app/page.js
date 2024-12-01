@@ -5,9 +5,7 @@
      const HomePage = () => (
        <div>
          <h1>Welcome to Event Management</h1>
-         <Link href="/events">
-           <a>View Events</a>
-         </Link>
+         <Link href="/events">View Events</Link>
        </div>
      );
 
