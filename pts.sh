@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Add all modified and deleted files
-git add -A
+# Stage all changes, including modifications and deletions, for the next commit
+git add .
 
 # Show the changes made
 echo "Changes to be committed:"

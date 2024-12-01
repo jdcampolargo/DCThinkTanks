@@ -85,3 +85,8 @@ Instead of scraping websites, a better solution could be accessing the RSS Feeds
 - List of RSS Feeds: https://guides.libraries.indiana.edu/c.php?g=199682&p=1313704
 - 
 
+
+
+VULNERABILITIES
+- Fix supabase, only add files from authenticated users
+- For all the links, add so people know they're coming from here
