@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Stage all changes, including modifications and deletions, for the next commit
-git add .
+git add -U
 
 # Show the changes made
 echo "Changes to be committed:"

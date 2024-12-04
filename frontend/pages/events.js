@@ -1,6 +1,7 @@
 import { supabase } from '../lib/supabaseClient';
 import Link from 'next/link';
 
+// Use getServerSideProps to reload everytime
 export async function getStaticProps() {
   const { data: events, error } = await supabase
     .from('events')
