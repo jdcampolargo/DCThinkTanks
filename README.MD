@@ -102,3 +102,32 @@ Instead of scraping websites, a better solution could be accessing the RSS Feeds
 VULNERABILITIES
 - Fix supabase, only add files from authenticated users
 - For all the links, add so people know they're coming from here
+
+VERSION 1
+
+1) SCRAPE FROM THREE WEBSITES
+[x] Brookings
+[x] AEI
+[] One more 
+
+2) DESIGN
+[] Show who it's from
+[] 
+
+
+List
+
+
+What would be ideal instead of writing every scraper?
+
+- Here all the links. Scrape it every week. Whatever, just copy and poaste, whatever
+    - Similar Google Notebook
+    - And then boom!!! 
+- Upload it to Supabase
+
+Another thing I could do is figure out a way to be like, "VISH, here are all the links. Upload it to supabase and done deal."
+
+
+Maybe https://spider.cloud/ this could be useful
+>>>>>>> 6dcb204 (MORE COMMENTS ON HOW IT COULD BE DONE.)
+
