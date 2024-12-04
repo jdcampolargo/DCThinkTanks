@@ -7,9 +7,10 @@ Websites
 - https://www.csis.org/events
 - https://carnegieendowment.org/events?lang=en
 - https://www.heritage.org/events/12/2024/#event-calendar
-- https://www.brookings.edu/events/
+[x] https://www.brookings.edu/events/
 - https://www.urban.org/events
 - https://www.piie.com/events
+- http://www.cdt.org/
 - https://www.wilsoncenter.org/events
 - https://www.americanprogress.org/events/
 - https://www.atlanticcouncil.org/events/
@@ -18,10 +19,12 @@ Websites
 - https://www.cfr.org/event
 - https://www.cato.org/events
 - https://www.cnas.org/events
-- https://www.aei.org/events/
+[x] https://www.aei.org/events/
 - https://www.rff.org/events/
 - https://freedomhouse.org/events
 - https://itif.org/events/
+- http://www.ips-dc.org/
+- https://mediarelations.gwu.edu/gws-institute-politics-democracy-and-internet-announces-new-director
 - https://www.cgdev.org/section/events
 - https://www.usip.org/events
 - https://www.thedialogue.org/events/
@@ -33,6 +36,11 @@ Websites
 - https://www.newamerica.org/events/
 - https://www.piie.com/events
 - https://theird.org/events/
+- https://www.sais-jhu.edu/
+- https://www.press.org/
+- https://www.progressivepolicy.org/
+- https://www.mei.edu/
+- http://www.archives.gov/
 
 
 
@@ -73,13 +81,16 @@ What other things?
         - By Day
         - By Week (Show by hour and so on) (ex:https://www.aei.org/events/?gad_source=1&gclid=CjwKCAiA6aW6BhBqEiwA6KzDc48-kw92JU29SfTnq97h5FtPSZxCzvHRbOofYqxPA5YCtEDbEqK-3RoC-a8QAvD_BwE#:~:text=Substance%20Use-,Events%20Calendar,-December%2C%202024)
     - Automatic Google Calendar Addition 
+    - Fiter by tags / section / and more
 
 - Filter by ThinkTank, by week, by hour, etc
 
 
 - Monetization
 - Distribution
-- 
+    - Linkedin, Reddit, News Around The City (EASY) --> WASHINGTONIAN, POST, Hispanic ONES, ETC
+
+
 
 Instead of scraping websites, a better solution could be accessing the RSS Feeds of Think Tanks:
 - RAND Corp: https://www.rand.org/events.xml
