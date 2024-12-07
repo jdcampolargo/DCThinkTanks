@@ -170,3 +170,8 @@ link: text
 scraped_date: date and time including time zone
 
 
+SQL
+INSERT INTO "public"."events" ("id", "title", "thinktank", "date", "time", "category", "location", "link", "scraped_date") VALUES ('304', 'Relations with Turkey under Trump 2.0', 'Brookings Institution', 'December 11, 2024', '9:00 am - 10:00 am EST', 'Public Policy', 'Online', 'https://www.brookings.edu/events/relations-with-turkey-under-trump-2-0/', '2024-12-06 20:07:00+00');
+
+STRUCTURE EXAMPLE
+("id", "title", "thinktank", "date", "time", "category", "location", "link", "scraped_date") VALUES ('304', 'Relations with Turkey under Trump 2.0', 'Brookings Institution', 'December 11, 2024', '9:00 am - 10:00 am EST', 'Public Policy', 'Online', 'https://www.brookings.edu/events/relations-with-turkey-under-trump-2-0/', '2024-12-06 20:07:00+00');
