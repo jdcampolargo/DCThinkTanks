@@ -5,7 +5,7 @@ Automated Aggregator Website with all of the DC Think Tank Events.
 Websites
 
 - https://www.csis.org/events
-- https://carnegieendowment.org/events
+[x] https://carnegieendowment.org/events
 - https://www.heritage.org/events/12/2024/#event-calendar
 [x] https://www.brookings.edu/events/
 - https://www.urban.org/events
