@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 import logging
+from datetime import datetime
+
 
 # Utility function to fetch and parse a webpage
 def fetch_page(url):
@@ -87,3 +89,14 @@ def parse_event_location_aei(location):
         return location  # Return the original location if there's an error
 
 
+# Heritage
+def parse_event_date_heritage(date_str):
+    try:
+        # Attempt to parse the date assuming it includes the year
+        date_obj = datetime.strptime(date_str, '%b %d, %Y')
+    except ValueError:
+        # If the year is not included, assume the current year
+        current_year = datetime.now().year
+        date_obj = datetime.strptime(f"{date_str}, {current_year}", '%b %d, %Y')
+    
+    return date_obj.strftime('%B %d, %Y')

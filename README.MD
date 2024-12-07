@@ -108,7 +108,8 @@ VERSION 1
 1) SCRAPE FROM THREE WEBSITES
 [x] Brookings
 [x] AEI
-[
+[x] Carnegie
+[] Heritage
 
 2) DESIGN
 [] Show who it's from
