@@ -44,3 +44,4 @@ venv/
 # Miscellaneous
 *.pem
 
+backend/parsers/__pycache__

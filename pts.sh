@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Stage only modified and deleted files for the next commit
-git add -u
+git add .
 
 # Show the changes made
 echo "Changes to be committed:"
