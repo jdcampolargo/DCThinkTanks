@@ -131,5 +131,42 @@ Another thing I could do is figure out a way to be like, "VISH, here are all the
 Maybe https://spider.cloud/ this could be useful
 - PERPLEXITY API
 
+Another solution would be to scrape everything and just pass it to OPENAI, let it make sense and then show it nicely. But that's expneisve
+
+Ok so what is the plan of attack?
+
+1. Figure out how to do Brookings pretty well
+2. Figure out database
+    1. a) only show this week and b) next week, and future, and anything past that week should not be shown, how can I write that in the database and call it and so on?
+
+
+How would a human do it?
+- Check all the links
+- Add it to the database depending on the parameters
+- Done
+
+What would I like?
+- I would provide all the links for the websites
+- Computer would use AI to understand what events to look for and add it to the database that week, and upload to database
+- It shows
+
+Why can't I do that?
+- Maybe AI is expensive. But don't think like that. 
+
+What is the future of events? Perplexity has been useful, actually. Like what would I use? Sure, think tanks is something kinda useful but not really. Maybe the think tankers would use but I would love to know everything that is happening in any given day. You would have a calendar of Think Tanks but there's more. I don't know if you can't just do this, like tell me all the conferences, who's coming, and why, what, where, and how to get in. Now, that would be exciting. Where George Goes. 
+
+
+What are the paremeters / my data schema?
+
+
+id: int8
+title: text
+thinktank: text
+date: date
+time: time
+category: text
+location: text
+link: text
+scraped_date: date and time including time zone
 
 
