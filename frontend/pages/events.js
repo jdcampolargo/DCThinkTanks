@@ -98,6 +98,8 @@ export default function EventsPage({ events }) {
               </a>
               <p style={styles.eventDetails}>{event.date}</p>
               <p style={styles.eventDetails}>{event.location}</p>
+              <p style={styles.eventDetails}>{event.thinktank}</p>
+
             </li>
           ))}
         </ul>

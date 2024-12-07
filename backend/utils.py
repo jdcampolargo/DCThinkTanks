@@ -85,3 +85,5 @@ def parse_event_location_aei(location):
     except Exception as e:
         logging.error(f"Failed to parse location: {location} with error: {e}")
         return location  # Return the original location if there's an error
+
+

@@ -5,7 +5,7 @@ Automated Aggregator Website with all of the DC Think Tank Events.
 Websites
 
 - https://www.csis.org/events
-- https://carnegieendowment.org/events?lang=en
+- https://carnegieendowment.org/events
 - https://www.heritage.org/events/12/2024/#event-calendar
 [x] https://www.brookings.edu/events/
 - https://www.urban.org/events
@@ -108,7 +108,7 @@ VERSION 1
 1) SCRAPE FROM THREE WEBSITES
 [x] Brookings
 [x] AEI
-[] One more 
+[
 
 2) DESIGN
 [] Show who it's from
@@ -175,3 +175,18 @@ INSERT INTO "public"."events" ("id", "title", "thinktank", "date", "time", "cate
 
 STRUCTURE EXAMPLE
 ("id", "title", "thinktank", "date", "time", "category", "location", "link", "scraped_date") VALUES ('304', 'Relations with Turkey under Trump 2.0', 'Brookings Institution', 'December 11, 2024', '9:00 am - 10:00 am EST', 'Public Policy', 'Online', 'https://www.brookings.edu/events/relations-with-turkey-under-trump-2-0/', '2024-12-06 20:07:00+00');
+
+I suppose the next steps are just like you gotta figure out how to do this. Continue writing customized parsers for everyone and then work on the design. Is that it? I guess so, alright onto the next one.
+
+
+PROMPT:
+
+@utils.py
+@brookings.py
+
+Parser code
+
+It should fit this example
+
+STRUCTURE EXAMPLE
+(, "title", "thinktank", "date", "time", "category", "location", "link", "scraped_date") VALUES ('304', 'Relations with Turkey under Trump 2.0', 'Brookings Institution', 'December 11, 2024', '9:00 am - 10:00 am EST', 'Public Policy', 'Online', 'https://www.brookings.edu/events/relations-with-turkey-under-trump-2-0/', '2024-12-06 20:07:00+00');
