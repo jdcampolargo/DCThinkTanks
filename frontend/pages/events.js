@@ -1,79 +1,23 @@
 import { supabase } from '../lib/supabaseClient';
 import Link from 'next/link';
 
-// // Use getServerSideProps to reload everytime
-// export async function getServerSideProps() {
-//   const { data: events, error } = await supabase
-//     .from('events')
-//     .select('*')
-//     .order('date', { ascending: true });
-
-//   if (error) {
-//     console.error('Error fetching events:', error);
-//     return { props: { events: [] } };
-//   }
-
-//   return {
-//     props: {
-//       events,
-//     },
-//     // revalidate: 86400, // Revalidate once per day
-//   };
-// }
-
-function getTodayDate() {
-  return new Date('2024-12-02'); // Assume today is December 2, 2024
-}
-
-function getWeekDateRange() {
-  const today = new Date('2024-12-02'); // Assume today is December 2, 2024
-  const dayOfWeek = today.getDay();
-  const startOfWeek = new Date(today);
-  startOfWeek.setDate(today.getDate() - dayOfWeek); // Start of the current week
-  const endOfNextWeek = new Date(startOfWeek);
-  endOfNextWeek.setDate(startOfWeek.getDate() + 13); // End of the next week
-
-  console.log('Start of Week:', startOfWeek.toISOString().split('T')[0]);
-  console.log('End of Next Week:', endOfNextWeek.toISOString().split('T')[0]);
-
-  return { startOfWeek, endOfNextWeek };
-}
-
-function parseDateString(dateString) {
-  return new Date(dateString);
-}
-
-// Use getServerSideProps to reload every time
 export async function getServerSideProps() {
-  const today = getTodayDate();
-
   const { data: events, error } = await supabase
     .from('events')
-    .select('*');
+    .select('*')
+    .order('date', { ascending: true });
 
   if (error) {
     console.error('Error fetching events:', error);
-    return { props: { events: [] } }; // Return an empty array if there's an error
+    return { props: { events: [] } };
   }
-
-  // Filter and sort events in JavaScript
-  const filteredAndSortedEvents = events
-    .filter(event => {
-      const eventDate = parseDateString(event.date);
-      return eventDate >= today; // Only include events on or after today
-    })
-    .sort((a, b) => parseDateString(b.date) - parseDateString(a.date)); // Sort in descending order
-
-  console.log('Filtered and Sorted Events:', filteredAndSortedEvents);
 
   return {
     props: {
-      events: filteredAndSortedEvents || [], // Ensure events is an array
+      events: events || [],
     },
   };
 }
-
-
 
 export default function EventsPage({ events }) {
   const styles = {
