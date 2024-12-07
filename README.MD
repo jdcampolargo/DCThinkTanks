@@ -6,7 +6,7 @@ Websites
 
 - https://www.csis.org/events
 [x] https://carnegieendowment.org/events
-- https://www.heritage.org/events/12/2024/#event-calendar
+[x] https://www.heritage.org/events/12/2024/#event-calendar
 [x] https://www.brookings.edu/events/
 - https://www.urban.org/events
 - https://www.piie.com/events
